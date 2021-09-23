@@ -146,6 +146,13 @@ label {
   .content {
     max-width: 550px;
   }
+  .navigasi {
+    background-image: url("Foto/SREITS.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+  }
 }
 
 @media (max-width: 990px) {
@@ -173,6 +180,13 @@ label {
   .content .info p {
     font-size: 14px;
   }
+  .navigasi {
+    background-image: url("Foto/SREITS.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+  }
 }
 
 @media (max-width: 470px) {
@@ -190,6 +204,13 @@ label {
   .media-icons a:not(:last-child) {
     margin-right: 30px;
   }
+  .navigasi {
+    background-image: url("Foto/SREITS.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+  }
 }
 
 @media (max-width: 560px) {
@@ -205,6 +226,13 @@ label {
 
   .content .info p {
     font-size: 14px;
+  }
+  .navigasi {
+    background-image: url("Foto/SREITS.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
   }
 }
 
@@ -237,6 +265,13 @@ label {
     font-size: 25px;
     transition: 0.3s;
     transition-property: transform;
+  }
+  .navigasi {
+    background-image: url("Foto/SREITS.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
   }
 }
 
@@ -275,5 +310,12 @@ label {
   .content .info h3 {
     font-size: 25px;
     font-weight: 600;
+  }
+  .navigasi {
+    background-image: url("Foto/SREITS.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
   }
 }

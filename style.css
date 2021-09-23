@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.navigasi {
+  background-image: url("Foto/trans.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+}
+
+section .footernya {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: small;
+}
+
+section .footernya p {
+  color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: url(Foto/SREITS-edit3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+label {
+  display: none;
+}
+
+.button-navbar a {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.button-navbar a:not(:last-child) {
+  margin-right: 30px;
+}
+
+.button-navbar a:hover {
+  background: #fff7b3;
+}
+
+.content {
+  padding-top: 7rem;
+  max-width: 645px;
+  margin: 50px 100px;
+}
+
+.content .info h2 {
+  color: #4b6108;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+
+  line-height: 40px;
+}
+
+.content .info h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.content .info p {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.content .info-btn {
+  color: #fff;
+  background: #4b6108;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.content .info-btn:hover {
+  background: #ccd379;
+}
+
+.media-icons {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0px 110px;
+}
+
+.media-icons a {
+  position: relative;
+  color: #fff7b3;
+  font-size: 25px;
+  transition: 0.3s;
+  transition-property: transform;
+}
+
+.media-icons a:not(:last-child) {
+  margin-right: 50px;
+}
+
+.media-icons a:hover {
+  transform: scale(1.5);
+}
+
+#check {
+  z-index: 3;
+  display: none;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 960px) {
+  label .menu-btn {
+    position: absolute;
+  }
+
+  .content .info h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .content .info h3 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .content .info p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 470px) {
+  section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(Foto/SREITS-edit2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .media-icons a:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .content .info h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .content .info h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .content .info p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content .info-btn {
+    color: #fff;
+    background: #4b6108;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    border-radius: 2.5px;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  .media-icons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0px 55px;
+    margin-left: 100px;
+  }
+  .media-icons a:not(:last-child) {
+    margin-right: 30px;
+  }
+  .media-icons a {
+    position: relative;
+    color: #fff7b3;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+  }
+}
+
+@media (max-width: 370px) {
+  .media-icons a {
+    position: relative;
+    color: #fff7b3;
+    font-size: 15px;
+    transition: 0.3s;
+    transition-property: transform;
+  }
+
+  .media-icons a:not(:last-child) {
+    margin-right: 25px;
+  }
+}

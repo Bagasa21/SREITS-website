@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 .navigasi {
-  background-image: url("Foto/trans.png");
+  background-image: url("Foto/SREITS.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -142,6 +142,12 @@ label {
 
 /* Responsive CSS */
 
+@media (max-width: 1300px) {
+  .content {
+    max-width: 500px;
+  }
+}
+
 @media (max-width: 960px) {
   label .menu-btn {
     position: absolute;
@@ -238,5 +244,19 @@ label {
 
   .media-icons a:not(:last-child) {
     margin-right: 25px;
+  }
+
+  .content .info .h2 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .content {
+    padding-top: 7rem;
+    max-width: 600px;
+    margin: 30px 100px;
+  }
+  .content .info h3 {
+    font-size: 25px;
+    font-weight: 600;
   }
 }
